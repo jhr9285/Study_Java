@@ -1,0 +1,14 @@
+// 오버로딩된 메소드 호출
+public class Sample0702_1 {
+	public int getSum(int i, int j) {
+		return i + j;
+	}
+	
+	public int getSum(int i, int j, int k) {
+		return i + j + k;
+	}
+	
+	public double getSum(double i, double j) {
+		return i + j;
+	}
+}
